@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+
+  section {
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  button {
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .botao-vermelho {
+    background-color: #DF0712;
+    color: #FFF;
+  }
+
+  .botao-preto {
+    background-color: #181818;
+    border: solid 1px #FFF;
+  }
+}
+
+.titulo-episodio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+main {
+  background-color: #181818;
+  color: #FFF;
+  height: 110vh;
+}
+
+.episodios {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+
+  section {
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+
+
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.descricao-titulo {
+  margin-top: 30px;
+}
+
+.descricao {
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  padding: 20px;
+  background-color: #111111;
+  gap: 20px;
+  align-items: center;
+}
+
+footer a {
+  cursor: pointer;
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 50px;
+}
